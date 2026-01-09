@@ -1,0 +1,7 @@
+ for install playwright :
+  npm init playwright@latest
+
+
+ To set permission for npm :
+  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
