@@ -5,3 +5,6 @@
  To set permission for npm :
   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
+find task : netstat -ano | findstr :9323
+to kill : taskkill /PID 12345 /F
+
