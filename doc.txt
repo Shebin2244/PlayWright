@@ -6,5 +6,5 @@
   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 find task : netstat -ano | findstr :9323
-to kill : taskkill /PID 12345 /F
+to kill : taskkill /PID 30576 /F
 
