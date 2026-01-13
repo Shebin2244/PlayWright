@@ -10,3 +10,7 @@ to kill : taskkill /PID 30576 /F
 
 To find trace :
 npx playwright show-trace test-results\third-login-test-Google-Chrome-retry1\trace.zip
+
+To Run : 
+npx playwright test ./tests/selecters.spec.js --headed --browser=chromium --channel=msedge or 
+npx playwright test ./tests/selecters.spec.js --headed --project="Microsoft Edge"
