@@ -8,3 +8,5 @@
 find task : netstat -ano | findstr :9323
 to kill : taskkill /PID 30576 /F
 
+To find trace :
+npx playwright show-trace test-results\third-login-test-Google-Chrome-retry1\trace.zip
